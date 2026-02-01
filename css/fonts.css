@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-family: 600;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-family: 700;
+}
+
+
+@font-face {
+    font-family: "Oxygen";
+    src: url(../fonts/Oxygen/Oxygen-Regular.ttf);
+     font-family: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Oxygen/Oxygen-Bold.ttf);
+     font-family: 700;
+}

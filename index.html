@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="container header__nav">
+            <a href="#" class="header__nav-logo">
+                <img src="./img/logo.svg" alt="" />
+            </a>
+            <ul class="header__nav-list">
+                <li class="header__nav-list_item">
+                    <a href="#" class="header__nav-list_item-link">HOME PAGE</a>
+                </li>
+                <li class="header__nav-list_item">
+                    <a href="#" class="header__nav-list_item-link">SHOP</a>
+                </li>
+                <li class="header__nav-list_item">
+                    <a href="#" class="header__nav-list_item-link">BLOG</a>
+                </li>
+            </ul>
+
+            <ul class="header__nav_icons">
+                <li class="header__nav_icons_item">
+                    <a href="#" class="header__nav_icons_item-link">
+                        <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="icon__hover">
+                            <path
+                                d="M15.8333 29.0542L13.5375 26.9642C5.38333 19.57 0 14.6775 0 8.70833C0 3.81583 3.83167 0 8.70833 0C11.4633 0 14.1075 1.2825 15.8333 3.29333C17.5592 1.2825 20.2033 0 22.9583 0C27.835 0 31.6667 3.81583 31.6667 8.70833C31.6667 14.6775 26.2833 19.57 18.1292 26.9642L15.8333 29.0542Z"
+                                fill="#C3BDB0" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="header__nav_icons_item">
+                    <a href="#" class="header__nav_icons_item-link counter">
+                        <p class="counter__item">2</p>
+                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="icon__hover">
+                            <path
+                                d="M13.0625 33.25C14.3742 33.25 15.4375 32.1867 15.4375 30.875C15.4375 29.5633 14.3742 28.5 13.0625 28.5C11.7508 28.5 10.6875 29.5633 10.6875 30.875C10.6875 32.1867 11.7508 33.25 13.0625 33.25Z"
+                                fill="#C3BDB0" />
+                            <path
+                                d="M29.6875 33.25C30.9992 33.25 32.0625 32.1867 32.0625 30.875C32.0625 29.5633 30.9992 28.5 29.6875 28.5C28.3758 28.5 27.3125 29.5633 27.3125 30.875C27.3125 32.1867 28.3758 33.25 29.6875 33.25Z"
+                                fill="#C3BDB0" />
+                            <path
+                                d="M12.4524 22.5625H31.8488L34.6988 8.3125H9.93715L9.30852 4.75H2.375V7.125H7.31648L10.879 27.3125H32.0625V24.9375H12.871L12.4524 22.5625Z"
+                                fill="#C3BDB0" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="container banner__wrap">
+            <div class="banner__content">
+                <h1 class="banner__content-title">
+                    In our store, you will always find clothing that matches your style
+                    and mood.
+                </h1>
+                <div class="banner__content-btns">
+                    <button class="banner__btn">DISCOVER</button>
+                    <button class="banner__btn">SUPPORT HELP</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="products">
+            <ul class="products__nav">
+                <li class="products__nav-item">T-SHIRTS</li>
+                <li class="products__nav-item">POLO SHIRTS</li>
+                <li class="products__nav-item">Tank tops</li>
+                <li class="products__nav-item">ACCESORIES</li>
+                <li class="products__nav-item">Pants</li>
+            </ul>
+
+            <div class="container products__wrap">
+                <!-- card__start -->
+                <div class="products__card">
+                    <div class="favorite">
+                        <svg width="45" height="42" viewBox="0 0 45 42" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="favorite__hover">
+                            <path
+                                d="M32.625 1C39.0039 1 44 5.97598 44 12.375C44 16.2875 42.2444 19.9263 38.9521 23.9541C35.6489 27.9953 30.9042 32.3056 25.0908 37.5771L25.0889 37.5781L22.5 39.9346L19.9111 37.5781L19.9092 37.5771L17.7803 35.6436C12.9324 31.2318 8.93819 27.4902 6.04785 23.9541C2.75561 19.9263 1 16.2875 1 12.375C1 5.97598 5.99609 1 12.375 1C15.9876 1 19.4717 2.68679 21.7412 5.33105L22.5 6.21582L23.2588 5.33105C25.5283 2.68679 29.0124 1 32.625 1Z"
+                                stroke="#212121" stroke-width="2" />
+                        </svg>
+                    </div>
+
+                    <div class="discount">
+                        <p class="discount__persentage">40%</p>
+                    </div>
+
+                    <div class="products__card-img">
+                        <img src="./img/product1.png" alt="" />
+                    </div>
+
+                    <div class="products__card-desc">
+                        <div class="products__card-desc_info">
+                            <h4 class="products__card-desc_info-name">CHATEAU CAMBON</h4>
+                            <p class="products__card-desc_info-collection">
+                                Beaujolals 2013
+                            </p>
+                        </div>
+
+                        <div class="products__card-desc_add">
+                            <p class="products__card-desc_add-price">$29.99</p>
+                            <button class="products__card-desc_add-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card__end -->
+                <div class="products__card">
+                    <div class="favorite">
+                        <svg width="45" height="42" viewBox="0 0 45 42" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="favorite__hover">
+                            <path
+                                d="M32.625 1C39.0039 1 44 5.97598 44 12.375C44 16.2875 42.2444 19.9263 38.9521 23.9541C35.6489 27.9953 30.9042 32.3056 25.0908 37.5771L25.0889 37.5781L22.5 39.9346L19.9111 37.5781L19.9092 37.5771L17.7803 35.6436C12.9324 31.2318 8.93819 27.4902 6.04785 23.9541C2.75561 19.9263 1 16.2875 1 12.375C1 5.97598 5.99609 1 12.375 1C15.9876 1 19.4717 2.68679 21.7412 5.33105L22.5 6.21582L23.2588 5.33105C25.5283 2.68679 29.0124 1 32.625 1Z"
+                                stroke="#212121" stroke-width="2" />
+                        </svg>
+                    </div>
+
+                    <div class="products__card-img">
+                        <img src="./img/product2.png" alt="" />
+                    </div>
+
+                    <div class="products__card-desc">
+                        <div class="products__card-desc_info">
+                            <h4 class="products__card-desc_info-name">CHATEAU CAMBON</h4>
+                            <p class="products__card-desc_info-collection">
+                                Beaujolals 2013
+                            </p>
+                        </div>
+
+                        <div class="products__card-desc_add">
+                            <p class="products__card-desc_add-price">$39.99</p>
+                            <button class="products__card-desc_add-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <div class="favorite">
+                        <svg width="45" height="42" viewBox="0 0 45 42" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="favorite__hover">
+                            <path
+                                d="M32.625 1C39.0039 1 44 5.97598 44 12.375C44 16.2875 42.2444 19.9263 38.9521 23.9541C35.6489 27.9953 30.9042 32.3056 25.0908 37.5771L25.0889 37.5781L22.5 39.9346L19.9111 37.5781L19.9092 37.5771L17.7803 35.6436C12.9324 31.2318 8.93819 27.4902 6.04785 23.9541C2.75561 19.9263 1 16.2875 1 12.375C1 5.97598 5.99609 1 12.375 1C15.9876 1 19.4717 2.68679 21.7412 5.33105L22.5 6.21582L23.2588 5.33105C25.5283 2.68679 29.0124 1 32.625 1Z"
+                                stroke="#212121" stroke-width="2" />
+                        </svg>
+                    </div>
+
+                    <div class="products__card-img">
+                        <img src="./img/product3.png" alt="" />
+                    </div>
+
+                    <div class="products__card-desc">
+                        <div class="products__card-desc_info">
+                            <h4 class="products__card-desc_info-name">CHATEAU CAMBON</h4>
+                            <p class="products__card-desc_info-collection">
+                                Beaujolals 2013
+                            </p>
+                        </div>
+
+                        <div class="products__card-desc_add">
+                            <p class="products__card-desc_add-price">$39.99</p>
+                            <button class="products__card-desc_add-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <div class="favorite">
+                        <svg width="45" height="42" viewBox="0 0 45 42" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="favorite__hover">
+                            <path
+                                d="M32.625 1C39.0039 1 44 5.97598 44 12.375C44 16.2875 42.2444 19.9263 38.9521 23.9541C35.6489 27.9953 30.9042 32.3056 25.0908 37.5771L25.0889 37.5781L22.5 39.9346L19.9111 37.5781L19.9092 37.5771L17.7803 35.6436C12.9324 31.2318 8.93819 27.4902 6.04785 23.9541C2.75561 19.9263 1 16.2875 1 12.375C1 5.97598 5.99609 1 12.375 1C15.9876 1 19.4717 2.68679 21.7412 5.33105L22.5 6.21582L23.2588 5.33105C25.5283 2.68679 29.0124 1 32.625 1Z"
+                                stroke="#212121" stroke-width="2" />
+                        </svg>
+                    </div>
+
+                    <div class="products__card-img">
+                        <img src="./img/product1.png" alt="" />
+                    </div>
+
+                    <div class="products__card-desc">
+                        <div class="products__card-desc_info">
+                            <h4 class="products__card-desc_info-name">CHATEAU CAMBON</h4>
+                            <p class="products__card-desc_info-collection">
+                                Beaujolals 2013
+                            </p>
+                        </div>
+
+                        <div class="products__card-desc_add">
+                            <p class="products__card-desc_add-price">$39.99</p>
+                            <button class="products__card-desc_add-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <div class="favorite">
+                        <svg width="45" height="42" viewBox="0 0 45 42" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="favorite__hover">
+                            <path
+                                d="M32.625 1C39.0039 1 44 5.97598 44 12.375C44 16.2875 42.2444 19.9263 38.9521 23.9541C35.6489 27.9953 30.9042 32.3056 25.0908 37.5771L25.0889 37.5781L22.5 39.9346L19.9111 37.5781L19.9092 37.5771L17.7803 35.6436C12.9324 31.2318 8.93819 27.4902 6.04785 23.9541C2.75561 19.9263 1 16.2875 1 12.375C1 5.97598 5.99609 1 12.375 1C15.9876 1 19.4717 2.68679 21.7412 5.33105L22.5 6.21582L23.2588 5.33105C25.5283 2.68679 29.0124 1 32.625 1Z"
+                                stroke="#212121" stroke-width="2" />
+                        </svg>
+                    </div>
+
+                    <div class="discount">
+                        <p class="discount__persentage">40%</p>
+                    </div>
+
+                    <div class="products__card-img">
+                        <img src="./img/product2.png" alt="" />
+                    </div>
+
+                    <div class="products__card-desc">
+                        <div class="products__card-desc_info">
+                            <h4 class="products__card-desc_info-name">CHATEAU CAMBON</h4>
+                            <p class="products__card-desc_info-collection">
+                                Beaujolals 2013
+                            </p>
+                        </div>
+
+                        <div class="products__card-desc_add">
+                            <p class="products__card-desc_add-price">$29.99</p>
+                            <button class="products__card-desc_add-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <div class="favorite">
+                        <svg width="45" height="42" viewBox="0 0 45 42" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="favorite__hover">
+                            <path
+                                d="M32.625 1C39.0039 1 44 5.97598 44 12.375C44 16.2875 42.2444 19.9263 38.9521 23.9541C35.6489 27.9953 30.9042 32.3056 25.0908 37.5771L25.0889 37.5781L22.5 39.9346L19.9111 37.5781L19.9092 37.5771L17.7803 35.6436C12.9324 31.2318 8.93819 27.4902 6.04785 23.9541C2.75561 19.9263 1 16.2875 1 12.375C1 5.97598 5.99609 1 12.375 1C15.9876 1 19.4717 2.68679 21.7412 5.33105L22.5 6.21582L23.2588 5.33105C25.5283 2.68679 29.0124 1 32.625 1Z"
+                                stroke="#212121" stroke-width="2" />
+                        </svg>
+                    </div>
+
+                    <div class="discount">
+                        <p class="discount__persentage">40%</p>
+                    </div>
+
+                    <div class="products__card-img">
+                        <img src="./img/product3.png" alt="" />
+                    </div>
+
+                    <div class="products__card-desc">
+                        <div class="products__card-desc_info">
+                            <h4 class="products__card-desc_info-name">CHATEAU CAMBON</h4>
+                            <p class="products__card-desc_info-collection">
+                                Beaujolals 2013
+                            </p>
+                        </div>
+
+                        <div class="products__card-desc_add">
+                            <p class="products__card-desc_add-price">$29.99</p>
+                            <button class="products__card-desc_add-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="container about__wrap">
+                <div class="about__desk">
+                    <h2 class="about__desk-title">
+                        Our products undergo strict quality control at every stage of
+                        production.
+                    </h2>
+                    <p class="about__desk-text">
+                        We pay special attention to the quality of every item in our
+                        store. We use only carefully selected materials that ensure
+                        durability and comfort while wearing. Every detail — from the
+                        stitching to the hardware — is thoroughly checked so that you
+                        receive a product that lasts long and continues to please you with
+                        its appearance and comfort.
+                    </p>
+                </div>
+
+                <div class="about__grid">
+                    <div class="about__img">
+                        <img src="./img/about1.png" alt="" />
+                    </div>
+
+                    <div class="about__img">
+                        <img src="./img/about2.png" alt="" />
+                    </div>
+
+                    <div class="about__img">
+                        <img src="./img/about3.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__wrap">
+            <form class="footer__form">
+                <h3 class="footer__form-title">NEWSLETTER</h3>
+
+                <label class="footer__form-label">
+                    <input type="text" placeholder="Enter your email" class="footer__fom-input" />
+
+                    <button class="footer__form-btn">
+                        <img src="./img/message.svg" alt="">
+                    </button>
+
+                </label>
+            </form>
+        </div>
+
+        <div class="container footer__lists">
+            <ul class="footer__list-start">
+                <h4 class="footer__list-title">ABOUT US</h4>
+
+                
+                <li>
+                    <a href="" class="list__item-link">About us</a>
+                </li>
+                <li>
+                    <a href="" class="list__item-link">Privacy</a>
+                </li>
+                <li>
+                    <a href="" class="list__item-link">Contact</a>
+                </li>
+            </ul>
+            <ul class="footer__list-middle">
+                <h4 class="footer__list-title">CUSTOME CARE</h4>
+
+                <li>
+                    <a href="" class="list__item-link">FAQ</a>
+                </li>
+                <li>
+                    <a href="" class="list__item-link">Delivery info</a>
+                </li>
+                <li>
+                    <a href="" class="list__item-link">Payment</a>
+                </li>
+            </ul>
+            <ul class="footer__list-end">
+                <h4 class="footer__list-title">CONTACT</h4>
+
+                <li>
+                    <a href="" class="list__item-link">OooTads</a>
+                </li>
+                <li>
+                    <a href="" class="list__item-link">SemiSafd</a>
+                </li>
+                <li>
+                    <a href="" class="list__item-link">shoploveweb.com</a>
+                </li>
+                <li>
+                    <a href="" class="list__item-link">+47 95 23 321 00</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
