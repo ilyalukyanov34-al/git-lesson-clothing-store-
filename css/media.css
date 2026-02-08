@@ -239,7 +239,7 @@
 
     .about__img {
         width: 100%;
-        max-width: 600px;
+        max-width: 400px;
         height: auto;
     }
 
@@ -253,36 +253,39 @@
     .footer {
         padding: 80px 0 10px;
     }
+
     @media (max-width: 900px) {
-    .footer__form-label {
-        max-width: 50%;   /* инпут займёт половину ширины родителя */
-        width: 50%;       /* фиксируем ширину 50% */
+        .footer__form-label {
+            max-width: 50%;
+            width: 50%;
+        }
+
+        .footer__fom-input {
+            padding: 25px 20px;
+            width: 100%;
+        }
     }
 
-    .footer__fom-input {
-        padding: 25px 20px; /* уменьшаем padding внутри */
-        width: 100%;        /* инпут занимает всю ширину label */
-    }
+
 }
 
-    
-}
 @media (max-width: 470px) {
     .footer {
         padding: 80px 0 10px;
     }
+
     @media (max-width: 900px) {
-    .footer__form-label {
-        max-width: 50%;   /* инпут займёт половину ширины родителя */
-        width: 50%;       /* фиксируем ширину 50% */
+        .footer__form-label {
+            max-width: 50%;
+            width: 50%;
+        }
+
+        .footer__fom-input {
+            padding: 20px 10px;
+            width: 100%;
+        }
     }
 
-    .footer__fom-input {
-        padding: 20px 10px; /* уменьшаем padding внутри */
-        width: 100%;        /* инпут занимает всю ширину label */
-    }
-}
 
 
-    
 }
