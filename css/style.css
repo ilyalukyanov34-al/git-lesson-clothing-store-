@@ -20,6 +20,7 @@
 
 body {
     background: #c3bdb0;
+    min-width: 320px;
 }
 
 .container {
@@ -50,7 +51,7 @@ body {
 .header__nav-list_item-link {
     font-family: "Oxygen", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: clamp(0.813rem, 0.642rem + 0.85vw, 1.25rem);
     color: #f0f0f0;
     transition: 0.3s;
     display: inline-block;
@@ -127,7 +128,7 @@ body {
 .banner__content-title {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: clamp(1.688rem, 1.175rem + 2.56vw, 3rem);
     line-height: 120%;
     letter-spacing: 0%;
     text-transform: uppercase;
@@ -149,7 +150,7 @@ body {
     color: #f0f0f0;
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: clamp(0.938rem, 0.816rem + 0.61vw, 1.25rem);
     text-transform: uppercase;
     padding: 30px;
     backdrop-filter: blur(15px);
@@ -161,7 +162,7 @@ body {
 }
 
 .products {
-    padding: 140px 0 180px;
+    padding: 10px 0 60px;
     position: relative;
 }
 
@@ -172,7 +173,7 @@ body {
     transform: translate(-50%, -50%);
     max-width: 1110px;
     width: 100%;
-    height: 120px;
+    height: 110px;
     background: #dedad1;
     box-shadow: 0px 2px 12 2px #00000040;
     display: flex;
@@ -184,7 +185,7 @@ body {
 .products__nav-item {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size:  clamp(0.625rem, 0.479rem + 0.73vw, 1rem);
     text-transform: uppercase;
     color: #7c7c7c;
     transition: 0.3s;
@@ -208,6 +209,14 @@ body {
 
 .products__nav-item:last-child::after {
     content: none;
+}
+
+.products__wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .products__card {
@@ -255,7 +264,7 @@ body {
 .discount__persentage {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: clamp(0.938rem, 0.816rem + 0.61vw, 1.25rem);
     color: #f0f0f0;
     transform: rotate(-45deg);
 }
@@ -311,7 +320,7 @@ body {
 .products__card-desc_add-price {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: clamp(0.938rem, 0.718rem + 1.1vw, 1.5rem);
     color: #212121;
 }
 
@@ -324,7 +333,7 @@ body {
     justify-content: center;
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: clamp(0.625rem, 0.479rem + 0.73vw, 1rem);
     color: #212121;
     transition: 0.3s;
     cursor: pointer;
@@ -338,29 +347,29 @@ body {
 .products__wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 10px;
 }
 
 .about {
-    margin-bottom: 180px;
+    margin-bottom: 70px;
 }
 
 .about__wrap {
     display: flex;
     flex-direction: column;
-    gap: 95px;
+    gap: 40px;
 }
 
 .about__desk {
     display: flex;
     flex-direction: column;
-    gap: 44px;
+    gap: 20px;
 }
 
 .about__desk-title {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: clamp(1.25rem, 0.567rem + 3.41vw, 3rem);
     line-height: 120%;
     text-transform: uppercase;
     color: #212121;
@@ -371,15 +380,16 @@ body {
 .about__desk-text {
     font-family: "Oxygen", sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: clamp(0.813rem, 0.544rem + 1.34vw, 1.5rem);
     line-height: 120%;
     color: #212121;
+    word-break: break-all;
 }
 
 .about__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 10px;
     grid-auto-rows: 314px;
 }
 
@@ -411,7 +421,7 @@ body {
 .footer__form-title {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: clamp(0.813rem, 0.642rem + 0.85vw, 1.25rem);
     color: #F0F0F0;
     text-transform: uppercase;
 }
@@ -432,7 +442,7 @@ body {
 
 .footer__form-btn {
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
     background: transparent;
@@ -447,7 +457,7 @@ body {
 }
 
 .footer__list-start {
-    margin: 140px 0;
+    margin: 120px 0;
 }
 
 .footer__list-title {
@@ -455,7 +465,7 @@ body {
     margin-bottom: 20px;
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: clamp(0.938rem, 0.816rem + 0.61vw, 1.25rem);
     color: #DEDAD1;
 }
 
@@ -465,6 +475,6 @@ body {
     margin-bottom: 12px;
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: clamp(0.813rem, 0.739rem + 0.37vw, 1rem);
     color: #DEDAD1;
 }
